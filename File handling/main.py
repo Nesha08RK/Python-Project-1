@@ -32,9 +32,9 @@ try:
         except Exception as e:
             print(f"An error occurred while appending to the file: {e}")    
     elif n == 4:
-        print("Exiting the program. Goodbye!")          
+        print("Exiting the program!")          
     else:
         print("Invalid choice. Please select a valid option.")  
 except ValueError:
-    print("Invalid input. Please enter a number corresponding to the choices.")     
+    print("Invalid input. Please enter a correct choices.")     
 
