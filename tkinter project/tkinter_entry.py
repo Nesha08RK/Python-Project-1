@@ -35,6 +35,7 @@ cb1 = ttk.Combobox(root, textvariable=5, width=20, height=14)
 cb1['values'] = ["Python", "Java", "C++", "JavaScript", "HTML", "CSS"]
 cb1.grid(row=7, column=3, padx=100, pady=10)
 
+
 root.mainloop()
 
 
