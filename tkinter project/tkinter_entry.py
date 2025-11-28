@@ -26,15 +26,17 @@ rb2.grid(row=3, column=3, padx=10, pady=10)
 Button(root, bg="orange", fg="yellow", text="Submit",  font=("Berlin Sans FB", 13), command=Hello).grid(row=4, column=3,padx=100, pady=10)
 
 ent1 = Entry(root, width=50, font=("Arial", 14), borderwidth=10, bg="light grey", fg="dark blue")
-ent1.grid(row=5, column=3, padx=100, pady=10)
+ent1.grid(row=5, column=3, padx=450, pady=10)
 
 ent2 = Entry(root, width=50, font=("Arial", 14), borderwidth=10, bg="sky blue", fg="dark blue")
-ent2.grid(row=6, column=3, padx=100, pady=10)
+ent2.grid(row=6, column=3, padx=450, pady=10)
 
 cb1 = ttk.Combobox(root, textvariable=5, width=20, height=14)
 cb1['values'] = ["Python", "Java", "C++", "JavaScript", "HTML", "CSS"]
 cb1.grid(row=7, column=3, padx=100, pady=10)
 
+btn2 =  Button(root, bg="orange", fg="yellow", text="Submit",  font=("Berlin Sans FB", 13), command=Hello)
+btn2.grid(row=8, column=3)
 
 root.mainloop()
 
